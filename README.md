@@ -8,7 +8,7 @@
 
 O **LMS Content Helper** é um aplicativo web simples e intuitivo, desenvolvido para otimizar a criação e a formatação de conteúdo educacional e de **documentação técnica** para sistemas de gestão de aprendizado (LMS), como o **Moodle**.
 
-A ferramenta resolve o desafio de formatar textos com eficiência para plataformas web, garantindo que títulos, listas e blocos de código sejam corretamente estruturados e prontos para serem inseridos diretamente em um editor. O projeto demonstra familiaridade com sistemas LMS e a capacidade de construir soluções práticas para otimizar processos internos, o que é um requisito fundamental da vaga de estágio.
+A ferramenta resolve o desafio de formatar textos com eficiência para plataformas web, garantindo que títulos, listas e blocos de código sejam corretamente estruturados e prontos para serem inseridos diretamente em um editor. 
 
 ---
 
@@ -52,5 +52,6 @@ Você pode acessar uma demonstração do projeto ao vivo através deste link:
 ---
 
 ## **Próximos Passos (Opcional)**
+
 
 Futuras melhorias para o projeto incluem a adição de mais opções de formatação (como tabelas e links) e um modo de visualização em tempo real para o conteúdo formatado.
