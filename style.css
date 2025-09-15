@@ -1,0 +1,97 @@
+/* Importa a fonte do Google Fonts para um visual mais limpo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container principal do aplicativo */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 0;
+}
+
+/* Barra de ferramentas com os botões de formatação */
+.editor-toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.editor-toolbar button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.editor-toolbar button:hover {
+    background-color: #d0d0d0;
+}
+
+.editor-toolbar button:active {
+    transform: scale(0.98);
+}
+
+/* Área de texto onde o conteúdo é digitado */
+#editor {
+    width: 100%;
+    min-height: 400px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.6;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+/* Botão de cópia */
+#copyBtn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#copyBtn:hover {
+    background-color: #0056b3;
+}
